@@ -1,0 +1,16 @@
+
+.main-footer {
+    background: #fff;
+    padding: 15px;
+    color: #444;
+    text-align: center;
+    border-top: 1px solid #d2d6de !important;
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+}
+.hidden{
+    display: none !important;
+}
+
