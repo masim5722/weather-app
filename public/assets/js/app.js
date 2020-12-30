@@ -1,8 +1,6 @@
 console.log("Client side Javascript File")
 const baseUrl = window.location.origin;
 
-
-
 const weatherForm = document.querySelector('form')
 const forecastLabel = document.getElementById('heading')
 const locationLabel = document.getElementById('para')

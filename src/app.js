@@ -4,6 +4,7 @@ const hbs =  require('hbs')
 const forecast = require('./utils/forecast')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 // define paths
 const publicDirPath = path.join(__dirname,'../public')
@@ -79,6 +80,6 @@ app.get('*', (req, res) => {
         name: 'Muhammad Asim'
     })
 })
-app.listen(3000, () => {
-    console.log("Starting server...")
+app.listen(port, () => {
+    console.log("Starting server on "+port+" .")
 })
